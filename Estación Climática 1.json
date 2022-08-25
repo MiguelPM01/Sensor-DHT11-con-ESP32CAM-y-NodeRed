@@ -1,0 +1,37 @@
+[
+    {
+        "id": "ce0fbd06a5058d35",
+        "type": "ui_text",
+        "z": "837331ae08c4160b",
+        "group": "d5d4ab3f38fb2c2b",
+        "order": 8,
+        "width": 12,
+        "height": 1,
+        "name": "",
+        "label": "LED Temperatura",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 930,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "d5d4ab3f38fb2c2b",
+        "type": "ui_group",
+        "name": "Datos sensor DHT11",
+        "tab": "c76dbd7c3f3f826a",
+        "order": 1,
+        "disp": true,
+        "width": "26",
+        "collapse": false
+    },
+    {
+        "id": "c76dbd7c3f3f826a",
+        "type": "ui_tab",
+        "name": "Estación Climática",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    }
+]
